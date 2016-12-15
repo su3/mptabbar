@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<import src="../../common/mptabbar/mptabbar.wxml" />
+
+<template is="mptabbar" data="{{mptabbar_data: mptabbar_data, mptabbar_animation: mptabbar_animation}}"></template>

@@ -1,0 +1,8 @@
+<template name="mptabbar">
+    <view class="mptabbar">
+        <block wx:for="{{mptabbar_data}}">
+          <view class="mptabbar-item {{item.selected}}" style="width:{{100 / mptabbar_data.length}}%" bindtap="willTapMpTabbarItem" data-idx="{{index}}">{{item.name}}</view>
+        </block>
+        <view animation="{{mptabbar_animation}}" class="mptabbar-indicator" style="width:{{100 / mptabbar_data.length}}%"></view>
+      </view>
+</template>
