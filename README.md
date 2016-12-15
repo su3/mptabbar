@@ -4,6 +4,8 @@
 
 尝试把这个需求封装成一个组件。
 
+![](http://7vzort.com1.z0.glb.clouddn.com/mptabbar.gif)
+
 ##应用
 
 假设把 mptabbar 放在 common 目录下：
